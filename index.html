@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="What If Simulator">
+    <title>What If Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>What If Scenarios</h1>
+        <p>Choose a "What If" scenario, and see what would happen!</p>
+
+        <div class="input-container">
+            <label for="scenario">What if:</label>
+            <input type="text" id="scenario" placeholder="e.g., humans had wings">
+            <button onclick="simulate()">Simulate</button>
+        </div>
+
+        <div id="result" class="result">
+            <!-- Simulation result will appear here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
